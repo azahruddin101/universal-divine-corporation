@@ -46,7 +46,7 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <section className="bg-light overflow-hidden relative">
+    <section className="bg-light overflow-hidden relative z-1">
       <Navbar />
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
 

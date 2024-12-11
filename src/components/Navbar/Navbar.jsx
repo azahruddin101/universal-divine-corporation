@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative z-20 -mb-10">
+    <nav className="relative z-20 mb-5">
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -62,7 +62,7 @@ const Navbar = () => {
           variants={variants}
           transition={{ staggerChildren: 0.2 }} // Stagger the animations
         >
-      <ul className="flex flex-wrap w-full items-center gap-3 py-1 px-8 text-white rounded text-xl font-semibold bg-[#2d907c]">
+      <ul className="flex flex-wrap w-full items-center gap-2 py-1 px-8 text-white z-20  rounded text-xl font-semibold bg-[#2d907c]">
         <motion.li
           variants={variants}
           transition={{ duration: 0.5 }}

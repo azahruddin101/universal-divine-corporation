@@ -33,7 +33,7 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-white mt-20 md:mt-10">
+    <div className="bg-white mt-20 md:mt-5">
       {/* Hero Section */}
       <motion.section 
         initial={{ opacity: 0 }}
