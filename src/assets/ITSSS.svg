@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Server Rack -->
+  <rect x="150" y="250" width="120" height="200" fill="#2d907c"/>
+  <rect x="160" y="260" width="100" height="30" fill="#ffffff"/>
+  <rect x="160" y="300" width="100" height="30" fill="#ffffff"/>
+  <rect x="160" y="340" width="100" height="30" fill="#ffffff"/>
+  <circle cx="170" cy="275" r="5" fill="#4CAF50"/>
+  <circle cx="170" cy="315" r="5" fill="#4CAF50"/>
+  <circle cx="170" cy="355" r="5" fill="#4CAF50"/>
+  
+  <!-- Cloud Symbol -->
+  <path d="M500 150 
+           C520 130, 580 130, 600 150 
+           C620 130, 680 130, 700 150
+           C720 170, 720 200, 700 220
+           C680 240, 520 240, 500 220
+           C480 200, 480 170, 500 150" 
+        fill="#4267B2" opacity="0.8"/>
+  
+  <!-- Connection Lines -->
+  <path d="M270 350 C400 350, 400 200, 500 200" 
+        stroke="#2d907c" fill="none" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- Code Window -->
+  <rect x="350" y="300" width="200" height="150" fill="#333333" rx="5"/>
+  <rect x="360" y="310" width="180" height="130" fill="#1E1E1E"/>
+  <!-- Code Lines -->
+  <line x1="370" y1="330" x2="470" y2="330" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="370" y1="350" x2="450" y2="350" stroke="#FF6B6B" stroke-width="2"/>
+  <line x1="370" y1="370" x2="480" y2="370" stroke="#FFB800" stroke-width="2"/>
+  <line x1="370" y1="390" x2="460" y2="390" stroke="#4267B2" stroke-width="2"/>
+  
+  <!-- Gear Icons -->
+  <g transform="translate(600,300)">
+    <circle cx="0" cy="0" r="30" fill="#2d907c"/>
+    <path d="M-20,-5 L20,-5 M-20,5 L20,5" stroke="white" stroke-width="3"/>
+    <path d="M-5,-20 L-5,20 M5,-20 L5,20" stroke="white" stroke-width="3"/>
+  </g>
+  
+  <g transform="translate(650,350)">
+    <circle cx="0" cy="0" r="25" fill="#FF6B6B"/>
+    <path d="M-15,-5 L15,-5 M-15,5 L15,5" stroke="white" stroke-width="2"/>
+    <path d="M-5,-15 L-5,15 M5,-15 L5,15" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Mobile Device -->
+  <rect x="450" y="400" width="60" height="100" rx="5" fill="#333333"/>
+  <rect x="455" y="405" width="50" height="85" fill="#ffffff"/>
+  <circle cx="480" cy="495" r="3" fill="#ffffff"/>
+  
+  <!-- Data Icons -->
+  <g transform="translate(200,150)">
+    <rect x="0" y="0" width="30" height="40" fill="#4CAF50"/>
+    <line x1="5" y1="10" x2="25" y2="10" stroke="white" stroke-width="2"/>
+    <line x1="5" y1="20" x2="25" y2="20" stroke="white" stroke-width="2"/>
+    <line x1="5" y1="30" x2="25" y2="30" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Network Nodes -->
+  <circle cx="300" cy="200" r="10" fill="#FFB800"/>
+  <circle cx="400" cy="150" r="10" fill="#FFB800"/>
+  <circle cx="500" cy="250" r="10" fill="#FFB800"/>
+  
+  <!-- Connecting Lines between Nodes -->
+  <line x1="300" y1="200" x2="400" y2="150" stroke="#FFB800" stroke-width="2"/>
+  <line x1="400" y1="150" x2="500" y2="250" stroke="#FFB800" stroke-width="2"/>
+  <line x1="300" y1="200" x2="500" y2="250" stroke="#FFB800" stroke-width="2"/>
+</svg>

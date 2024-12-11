@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Laptop Base -->
+  <path d="M200 300 L600 300 L650 400 L150 400 Z" fill="#2d907c"/>
+  <rect x="250" y="150" width="300" height="150" fill="#2d907c"/>
+  <rect x="255" y="155" width="290" height="140" fill="white"/>
+  
+  <!-- Graph on Screen -->
+  <polyline points="280,255 320,220 360,240 400,200 440,180 480,210 520,195" 
+    fill="none" stroke="#2d907c" stroke-width="3"/>
+  
+  <!-- Social Media Icons -->
+  <circle cx="300" cy="450" r="20" fill="#1DA1F2"/> <!-- Twitter -->
+  <path d="M290,450 L310,450 M300,440 L300,460" stroke="white" stroke-width="3"/>
+  
+  <circle cx="350" cy="450" r="20" fill="#4267B2"/> <!-- Facebook -->
+  <path d="M350,440 L350,460 M340,450 L360,450" stroke="white" stroke-width="3"/>
+  
+  <circle cx="400" cy="450" r="20" fill="#E4405F"/> <!-- Instagram -->
+  <rect x="390" y="440" width="20" height="20" rx="5" stroke="white" fill="none" stroke-width="3"/>
+  
+  <!-- Floating Elements -->
+  <!-- Email Icon -->
+  <rect x="500" y="150" width="40" height="30" rx="5" fill="#FF6B6B"/>
+  <path d="M500,155 L520,170 L540,155" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Search Icon -->
+  <circle cx="600" cy="200" r="15" fill="#4CAF50" stroke="white" stroke-width="2"/>
+  <line x1="610" y1="210" x2="620" y2="220" stroke="#4CAF50" stroke-width="4"/>
+  
+  <!-- Content Icon -->
+  <rect x="150" y="200" width="30" height="40" rx="5" fill="#FFB800"/>
+  <path d="M155,210 L175,210 M155,220 L175,220 M155,230 L165,230" 
+    stroke="white" stroke-width="2"/>
+  
+  <!-- Analytics Circles -->
+  <circle cx="700" cy="300" r="25" fill="#FF6B6B" opacity="0.8"/>
+  <circle cx="680" cy="350" r="20" fill="#4CAF50" opacity="0.8"/>
+  <circle cx="710" cy="380" r="15" fill="#2d907c" opacity="0.8"/>
+  
+  <!-- Target Icon -->
+  <circle cx="150" cy="150" r="30" fill="none" stroke="#FF6B6B" stroke-width="3"/>
+  <circle cx="150" cy="150" r="20" fill="none" stroke="#FF6B6B" stroke-width="2"/>
+  <circle cx="150" cy="150" r="10" fill="#FF6B6B"/>
+  
+  <!-- Connecting Lines -->
+  <path d="M300,470 Q400,500 500,470" fill="none" stroke="#2d907c" stroke-width="2" opacity="0.5"/>
+  <path d="M350,470 Q400,520 450,470" fill="none" stroke="#2d907c" stroke-width="2" opacity="0.5"/>
+</svg>

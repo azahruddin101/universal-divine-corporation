@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Modern Building -->
+  <path d="M500 150 L600 150 L600 400 L500 400 Z" fill="#2d907c"/>
+  <rect x="510" y="170" width="20" height="20" fill="#fff"/>
+  <rect x="540" y="170" width="20" height="20" fill="#fff"/>
+  <rect x="570" y="170" width="20" height="20" fill="#fff"/>
+  <rect x="510" y="200" width="20" height="20" fill="#fff"/>
+  <rect x="540" y="200" width="20" height="20" fill="#fff"/>
+  <rect x="570" y="200" width="20" height="20" fill="#fff"/>
+  <rect x="510" y="230" width="20" height="20" fill="#fff"/>
+  <rect x="540" y="230" width="20" height="20" fill="#fff"/>
+  <rect x="570" y="230" width="20" height="20" fill="#fff"/>
+  
+  <!-- Traditional Building -->
+  <path d="M350 200 L450 200 L400 150 Z" fill="#4CAF50"/>
+  <rect x="360" y="200" width="80" height="100" fill="#4CAF50"/>
+  <rect x="385" y="250" width="30" height="50" fill="#fff"/>
+  
+  <!-- Blueprint -->
+  <rect x="100" y="150" width="200" height="150" fill="#1E88E5" opacity="0.1"/>
+  <path d="M100 160 L300 160 M100 180 L300 180 M100 200 L300 200" 
+        stroke="#1E88E5" stroke-width="1"/>
+  <path d="M120 150 L120 300 M140 150 L140 300 M160 150 L160 300" 
+        stroke="#1E88E5" stroke-width="1"/>
+  
+  <!-- Compass -->
+  <circle cx="150" cy="400" r="40" fill="none" stroke="#2d907c" stroke-width="2"/>
+  <path d="M150 370 L150 430 M120 400 L180 400" stroke="#2d907c" stroke-width="2"/>
+  <path d="M150 400 L180 370" stroke="#FF6B6B" stroke-width="3"/>
+  
+  <!-- Construction Tools -->
+  <!-- Ruler -->
+  <rect x="250" y="380" width="150" height="15" fill="#FFB800"/>
+  <path d="M260 380 L260 390 M270 380 L270 395 M280 380 L280 390" 
+        stroke="#333" stroke-width="1"/>
+  
+  <!-- Pencil -->
+  <path d="M450 350 L500 400 L490 410 L440 360 Z" fill="#FF6B6B"/>
+  <path d="M440 360 L430 350" stroke="#333" stroke-width="2"/>
+  
+  <!-- Safety Helmet -->
+  <path d="M600 350 
+           C600 330, 650 330, 650 350
+           C650 370, 600 370, 600 350" 
+        fill="#FFB800"/>
+  <path d="M595 350 L655 350" stroke="#FFB800" stroke-width="5"/>
+  
+  <!-- Crane -->
+  <path d="M700 150 L700 400" stroke="#333" stroke-width="10"/>
+  <path d="M700 150 L600 150" stroke="#333" stroke-width="8"/>
+  <path d="M600 150 L600 180" stroke="#333" stroke-width="3"/>
+  
+  <!-- Grid Lines -->
+  <path d="M50 450 L750 450" stroke="#ccc" stroke-width="2"/>
+  <path d="M50 460 L750 460" stroke="#ccc" stroke-width="1"/>
+  <path d="M50 470 L750 470" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Measurement Lines -->
+  <path d="M500 420 L600 420 M500 415 L500 425 M600 415 L600 425" 
+        stroke="#333" stroke-width="1"/>
+  <text x="540" y="435" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">100m</text>
+</svg>
